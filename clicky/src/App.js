@@ -23,7 +23,7 @@ class App extends Component{
     }else{
       clickedFlowerIds.push(id)
 
-      if(clickedFlowerIds.length === 8){
+      if(clickedFlowerIds.length === 12){
         this.setState({score: 12, status: "Congratulations, you won!. Click to play again!", clickedFlowerIds: []});
         console.log('You Win');
         return;
